@@ -3,6 +3,7 @@
 
 ```
 DIR0x01.txt  #超全目录字典
+dic.txt      #适合dirsearch使用的小规模字典
 
 WebShell-Password.txt #webshell 密码
 
