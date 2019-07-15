@@ -115,18 +115,12 @@ conn.txt
 ftp.txt
 global.asa
 global.mdb
-璇存槑鏂囨�.txt
-璇存�.txt
-瀹�呰存�.txt
-瀹�.txt
 help.txt
-鏂板� 鏂囨湰鏂囨�.txt
 1.txt
 2.txt
 3.txt
 link.asa
 texteditor
-璇存�.htm
 adminconn.inc
 admin/editor/editor/filemanager/upload/test.html
 editor/editor/filemanager/upload/test.html
@@ -158,16 +152,6 @@ upload_new_ad.html
 12345.rar
 123456.asa
 123456.rar
-瀹�叏鎵��.txt
-瀹�呮墜鍐.txt
-鏇存柊鍘嗗彶.txt
-鍟嗕笟娉ㄥ唽.txt
-鍗囩骇璇存�.txt
-浣跨敤鎵��.txt
-浣跨敤璇存�.txt
-鐗瑰埆鎰熻阿.txt
-�ㄦ埛鎵��.txt
-�ㄦ埛璇存�.txt
 22.asa
 22.rar
 222.asa
@@ -222,7 +206,7 @@ top.html
 web.config
 xiaoma.asa
 xm.asa
-瑾鏄.txt
+鐟鹃弰.txt
 acblog.asa
 upme2.htm
 upme1.htm
@@ -898,7 +882,7 @@ yonetim.html
 z
 zip
 zips
-鍋囧湴鍧
+閸嬪洤婀撮崸
 siteadmin
 workspace
 .xml
