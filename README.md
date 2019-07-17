@@ -23,7 +23,7 @@ dirtop9300.txt   在480w条目录字典中出现超过20次
 不知再哪找的源码，修改了一下
 '''
 #coding=utf-8
-# python3.6
+#python3.6
 import sys
 import imp
 imp.reload(sys)
@@ -40,7 +40,7 @@ keyList = ['web','webroot','WebRoot','website','www','wwww','www1','www2','www3'
 
 
 def run(url):
-	# 根据URL，推测一些针对性的文件名
+	#根据URL，推测一些针对性的文件名
 	num1 = url.find('.')
 	num2 = url.find('.', num1 + 1)
 	keyList.append(url[num1 + 1:num2])
