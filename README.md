@@ -1,3 +1,8 @@
+### 合并提取的高效目录字典
+合并SaiDict、fuzzDicts、Dirpath、SecLists、7kbscan、御剑等目录字典，再通过python把重复率高的提取出来。
+
+
+
 ### 收集的一些不错的字典
 
 ```
