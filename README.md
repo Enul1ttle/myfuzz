@@ -55,6 +55,7 @@ def run(url):
 
 print ("Please input (e.g:www.hack.com):")
 url = input()
+script = int(input("输入数字选择脚本 1 asp、2 aspx、3 php、4、jsp: "))
 run(url)
 
 tempList = []
@@ -67,10 +68,29 @@ fobj = open("keyFiles.txt" , 'w')
 for each in tempList:
     fobj.write('%s%s' % (each,'\n'))
     fobj.flush()
-#将dirtop9300.txt 加入
-f= open('dirtop9300.txt','r',encoding='UTF-8')
+if script == 1:
+	f= open('./dic/asp.txt','r',encoding='gbk')
+	for s in f.readlines():
+		fobj.write(s)
+if script == 2:
+	f= open('./dic/aspx.txt','r',encoding='gbk')
+	for s in f.readlines():
+		fobj.write(s)
+if script == 3:
+	f= open('./dic/php.txt','r',encoding='gbk')
+	for s in f.readlines():
+		fobj.write(s)
+if script == 4:
+	f= open('./dic/jsp.txt','r',encoding='gbk')
+	for s in f.readlines():
+		fobj.write(s)
+
+
+
+f= open('./dic/dir.txt','r',encoding='gbk')
 for s in f.readlines():
 	fobj.write(s)
+
 
 print('OK!')
 ```
