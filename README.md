@@ -1,5 +1,5 @@
 ### 合并提取的高效目录字典
-合并SaiDict、fuzzDicts、Dirpath、SecLists、7kbscan、御剑等目录字典，再通过python把重复率高的提取出来。
+合并SaiDict、fuzzDicts、Dirpath、SecLists、7kbscan、御剑等目录字典，再通过python把重复率高的提取出来。比如dirtop10000.txt 在600W条数据中，重复出现达20次。
 
 
 
@@ -94,6 +94,6 @@ for s in f.readlines():
 
 print('OK!')
 ```
-
+项目地址：https://github.com/Enul1ttle/Python3Lean/tree/master/%E6%A0%B9%E6%8D%AE%E7%BD%91%E5%9D%80%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95%E7%88%86%E7%A0%B4%E5%AD%97%E5%85%B8    
 #### 部分字典生成效果
 ![image](https://raw.githubusercontent.com/Enul1ttle/Python3Lean/master/%E6%A0%B9%E6%8D%AE%E7%BD%91%E5%9D%80%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95%E7%88%86%E7%A0%B4%E5%AD%97%E5%85%B8/dir.png)
