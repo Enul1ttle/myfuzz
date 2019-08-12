@@ -1,5 +1,5 @@
 ### 合并提取的高效目录字典
-合并SaiDict、fuzzDicts、Dirpath、SecLists、7kbscan、御剑等目录字典，再通过python把重复率高的提取出来。比如dirtop10000.txt 在600W条数据中，重复出现达20次，dirtop20000.txt重复出现15次。
+合并SaiDict、fuzzDicts、Dirpath、SecLists、7kbscan、御剑等目录字典，再通过python把重复率高的提取出来。比如dirtop10000.txt 在600W条数据中，重复出现达20次，dirtop20000.txt重复出现15次。网站防护严就用top1000，不严就top60000走起。
 
 
 
