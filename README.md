@@ -94,6 +94,6 @@ for s in f.readlines():
 
 print('OK!')
 ```
-项目地址：https://github.com/Enul1ttle/Python3Lean/tree/master/%E6%A0%B9%E6%8D%AE%E7%BD%91%E5%9D%80%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95%E7%88%86%E7%A0%B4%E5%AD%97%E5%85%B8    
+项目地址：https://github.com/Enul1ttle/dirSC   
 #### 部分字典生成效果
 ![image](https://raw.githubusercontent.com/Enul1ttle/Python3Lean/master/%E6%A0%B9%E6%8D%AE%E7%BD%91%E5%9D%80%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95%E7%88%86%E7%A0%B4%E5%AD%97%E5%85%B8/dir.png)
